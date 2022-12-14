@@ -23,17 +23,17 @@ const char* eraVersion(void) {
 
 
 int eraVersionMajor(void) {
-  return PACKAGE_VERSION_MAJOR;
+  return PACKAGE_VERSION_MAJOR[0];
 }
 
 
 int eraVersionMinor(void) {
-  return PACKAGE_VERSION_MINOR;
+  return PACKAGE_VERSION_MINOR[0];
 }
 
 
 int eraVersionMicro(void) {
-  return PACKAGE_VERSION_MICRO;
+  return PACKAGE_VERSION_MICRO[0];
 }
 
 
